@@ -1,0 +1,6 @@
+# Algorithms for Antenna Beam Steering in Satellite Communication
+This repository contains the source code for the plots and simulations that I have made for a personal Reseach and Development project at Aarhus University.
+
+The simulations can be run with Jupyter Notebook. The [Report plots notebook](./Report_plots.ipynb) generates most of the plots used in the project report. The [Taylor Experiment notebook](taylor_experiment.ipynb) implements an experiment to estimate steering errors resulting from the approximation of sine and cosine using Taylor expansions. The [Pattern Multiplicaiton notebook](pattern_multiplication.ipynb) simulates the total radiation pattern of an antenna array by multiplying the array factor of the array with a simulated radiation pattern of a patch antenna stored in the [ant_gain_pat.mat](./Code/ant_gain_pat.mat)-file. The patch antenna radiation pattern is simulated with [antenna_sim.m](./Code/antenna_sim.m) in Matlab. Note that this requires the Antenna Toolbox in Matlab.
+
+The [polar plot notebook](./polar_plot.ipynb) requires the [MATLAB Engine API for Python](https://se.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)
