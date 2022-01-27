@@ -1,3 +1,7 @@
+% This file uses parameters for the antenna elements from the article:
+% "Patch Antenna Arrays Beam Steering for Enhanced LEO Nanosatellite Communications"
+% by Nestor J. Hernandez Marcano, Hannes Bartle, and Rune Hylsberg Jacobsen
+
 %% Antenna Properties 
 % Design antenna at frequency 8000000000Hz
 frequency = 8e9;
